@@ -1,6 +1,108 @@
-h3{
+/* h3 {
     color: rgb(42, 165, 120);
     background-color: black;
     font-size: 70px;
-    text-decoration:line-through;
+    text-decoration: line-through;
+} */
+
+/* class selector start */
+
+.heading4 {
+    color: aqua;
+    font-size: 50px;
 }
+
+.heading_bg_color {
+    background-color: blueviolet;
+}
+
+.para1 {
+    color: rgb(25, 17, 17);
+    font-size: 30px;
+}
+
+/* class selector end */
+
+
+/* id selector start */
+
+#heading5 {
+    color: blueviolet;
+    background-color: black;
+    font-size: 50px;
+}
+
+/* id selector end */
+
+
+/* TEXT FORMATING START*/
+
+.t_transform_uppercase{
+    text-transform: uppercase;
+}
+
+.t_transform_lowercase{
+    text-transform: lowercase;
+}
+
+.t_transform_capitilize{
+    text-transform: capitalize;
+}
+
+/* TEXT FORMATING END*/
+
+
+/* Text Decoration Start */
+
+.t_deco_underline{
+    text-decoration: underline;
+}
+
+.t_deco_overline{
+    text-decoration: overline;
+}
+
+.t_deco_linethrough{
+    text-decoration: line-through;
+}
+
+.t_decor{
+    text-decoration: overline line-through underline;
+}
+
+/* Text Decoration End */
+
+
+/* Text Align Start */
+
+.t_align_l{
+    text-align: left;
+}
+
+.t_align_c{
+    text-align: center;
+}
+
+.t_align_r{
+    text-align: right;
+}
+
+/* Text Align end */
+
+
+/* text shadow start */
+
+.t_shadow{
+    color: rgb(255, 132, 0);
+    text-shadow: 4px 5px 9px gray;
+    font-size: 60px;
+}
+
+.t_shadow2{
+    color: rgb(214, 9, 26);
+    text-shadow: 7px 6px 10px black;
+    font-size: 50px;
+
+}
+
+/* text shadow end */
