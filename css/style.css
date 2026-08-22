@@ -37,15 +37,15 @@
 
 /* TEXT FORMATING START*/
 
-.t_transform_uppercase{
+.t_transform_uppercase {
     text-transform: uppercase;
 }
 
-.t_transform_lowercase{
+.t_transform_lowercase {
     text-transform: lowercase;
 }
 
-.t_transform_capitilize{
+.t_transform_capitilize {
     text-transform: capitalize;
 }
 
@@ -54,19 +54,19 @@
 
 /* Text Decoration Start */
 
-.t_deco_underline{
+.t_deco_underline {
     text-decoration: underline;
 }
 
-.t_deco_overline{
+.t_deco_overline {
     text-decoration: overline;
 }
 
-.t_deco_linethrough{
+.t_deco_linethrough {
     text-decoration: line-through;
 }
 
-.t_decor{
+.t_decor {
     text-decoration: overline line-through underline;
 }
 
@@ -75,15 +75,15 @@
 
 /* Text Align Start */
 
-.t_align_l{
+.t_align_l {
     text-align: left;
 }
 
-.t_align_c{
+.t_align_c {
     text-align: center;
 }
 
-.t_align_r{
+.t_align_r {
     text-align: right;
 }
 
@@ -92,13 +92,13 @@
 
 /* text shadow start */
 
-.t_shadow{
+.t_shadow {
     color: rgb(255, 132, 0);
     text-shadow: 4px 5px 9px gray;
     font-size: 60px;
 }
 
-.t_shadow2{
+.t_shadow2 {
     color: rgb(214, 9, 26);
     text-shadow: 7px 6px 10px black;
     font-size: 50px;
