@@ -297,3 +297,65 @@
 }
 
 /* background end */
+
+/* flex start */
+
+
+.flex-items {
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    color: black;
+    font-size: 50px;
+    border: 5px double red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.flex_img {
+    list-style: none;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 50px;
+    border: 5px groove green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex_container_img {
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+/* flex end */
+
+/* background start */
+
+.background_img{
+    background-color: black;
+    background-image: url("../images/lamborghini.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* background img end */
+
