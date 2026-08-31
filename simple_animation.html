@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        div{
+            width: 400px;
+            height: 400px;
+            background-color: yellow;
+            position:relative;
+            animation: movingBox;
+            animation-duration: 15s;
+            animation-iteration-count: 10;
+            animation-delay: 3s;
+            animation-direction: normal;
+        }
+
+        /* @keyframes movingBox{
+            0%{
+                background-color: yellow;
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-color: red;
+                left: 500px;
+                top: 0px;
+            }
+            50%{
+                background-color: blue;
+                left: 0px;
+                top: 500px;
+            }
+            75%{
+                background-color: green;
+                left: 500px;
+                top: 500px;
+            }
+            100%{
+                background-color: yellow;
+                left: 0px;
+                top: 0px;
+            }
+        } */
+
+        @keyframes movingBox{
+            0%{
+                background-image: url(images/Mercedes-AMG\ GT\ R.jpg);
+                left: 0px;
+                top: 0px;
+            }
+            25%{
+                background-image: url(images/lamborghini.jpg);
+                left: 500px;
+                top: 0px;
+            }
+            50%{
+                background-image: url(images/porsche.jpg);
+                left: 0px;
+                top: 500px;
+            }
+            75%{
+                background-image: url(images/rolls\ royce.jpg);
+                left: 500px;
+                top: 500px;
+            }
+            100%{
+                background-image: url(images/Mercedes-AMG\ GT\ R.jpg);
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+
+    
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pseudo Class</title>
+        <style>
+            label{
+                display: block;
+                font-size: 15px;
+            }
+            .req{
+                color: red;
+            }
+            input:required{
+                background-color: gold;
+                border: 2px solid red;
+            }
+
+            .marker::marker{
+                content: "* ";
+                font-size: 18px;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Required pseudo class -->
+        <form action>
+            <label>Name: <span class="req">*</span></label>
+            <input type="text" placeholder="Enter Name" required>
+
+            <label for>DOB: <span class="req">*</span></label>
+            <input type="date">
+
+            <label for>Email: <span class="req">*</span></label>
+            <input type="email" placeholder="Enter Email" required>
+
+            <label for>Address: <span class="req">*</span></label>
+            <textarea placeholder="Enter Your Address"
+                style="height: 90px;"></textarea>
+
+        </form>
+
+        <!-- marker pseudo class -->
+        <h2>marker :</h2>
+        <ul>
+            <li class="marker">Jitendra Patil</li>
+            <li class="marker">Swapnil Patil</li>
+            <li class="marker">Hitesh Patil</li>
+            <li class="marker">Kundan Jadhav</li>
+            <li class="marker">Rajesh Thakre</li>
+        </ul>
+    </body>
+</html>
