@@ -1,9 +1,7 @@
-/* h3 {
-    color: rgb(42, 165, 120);
-    background-color: black;
-    font-size: 70px;
-    text-decoration: line-through;
-} */
+a{
+    text-decoration: none;
+
+}
 
 /* class selector start */
 
@@ -235,11 +233,14 @@
     width: 40px;
     height: 40px;
     border: 5px double red;
-    padding: 90px;
-    margin-bottom: 10px;
+    padding: 60px;
+    padding-top: 50px;
+    margin-bottom: 50px;
     background-color: aqua;
     font-size: 20px;
     text-align: center;
+    display: flex;
+    justify-content: center;
 }
 
 .box1 {
@@ -299,7 +300,6 @@
 /* background end */
 
 /* flex start */
-
 
 .flex-items {
     background-color: aqua;
